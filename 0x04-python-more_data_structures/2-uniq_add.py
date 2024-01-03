@@ -2,6 +2,6 @@
 
 def uniq_add(my_list=[]):
     if my_list == []:
-        return None
+        return 0
 
     return sum(set(my_list))
